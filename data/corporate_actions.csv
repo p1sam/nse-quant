@@ -1,0 +1,6 @@
+# Confirmed splits, bonus issues and consolidations used to back-adjust prices.
+# factor = shares held after the action per share held before it
+#   1-for-1 bonus -> 2 ; 1-for-10 bonus -> 1.1 ; 10-to-1 consolidation -> 0.1
+# Rows only take effect once added below. The Data Quality page lists every
+# unexplained >30% one-day move that is a candidate for an entry here.
+name,ex_date,factor,note

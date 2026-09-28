@@ -1,0 +1,4 @@
+# Annual fundamentals, one row per company per fiscal year.
+# Amounts in KES millions; shares_out_m in millions; dividend_ps in KES; tax_rate as a decimal.
+# Fill from audited annual reports. Value and Quality factors, multiples and ratios use this file.
+name,fiscal_year,shares_out_m,revenue,ebit,net_income,total_assets,total_equity,total_debt,cash,operating_cf,capex,dividend_ps,tax_rate
