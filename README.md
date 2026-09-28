@@ -43,7 +43,7 @@ pytest
 
 | File | Contents |
 |---|---|
-| `data/raw/*.csv` | Daily broker exports: date, security, close (KES), volume, net foreign flow, % change. Every CSV in the folder is loaded and merged. **Not committed** (see `.gitignore`): drop your own export here before running the app. |
+| `data/raw/*.csv` | Daily broker exports: date, security, close (KES), volume, net foreign flow, % change. Every CSV in the folder is loaded and merged. The repo ships with a Rock Investment Bank export covering Jun 2017 – Jun 2026; add newer exports alongside it. |
 | `data/sectors.csv` | NSE sector classification per security (editable). |
 | `data/corporate_actions.csv` | Confirmed splits, bonus issues and consolidations, used to back-adjust prices. Ships empty. |
 | `data/fundamentals.csv` | Annual financial statements per company. Ships as a template. Fill it from annual reports to unlock ratios, multiples, and the Value and Quality factors. |

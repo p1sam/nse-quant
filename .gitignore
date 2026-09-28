@@ -6,5 +6,3 @@ __pycache__/
 .claude/
 .DS_Store
 
-# Broker price exports: licensing unclear, keep out of the repo by default
-data/raw/*.csv
